@@ -38,7 +38,8 @@ const countdown = function () {
 
   if (time <= 0) {
     countdownContainer.innerHTML = '';
-    countdownContainer.innerHTML = '<h3>Countdown has expired</h3>';
+    countdownContainer.innerHTML =
+      '<h3 class="countdown-expired">Countdown has expired</h3>';
   }
 };
 
